@@ -18,7 +18,6 @@ function changeVocals (str) {
     }
     return temp
   }
-  console.log(changeVocals('KoArKoI'))
   
   function reverseWord (str) {
     //code di sini
