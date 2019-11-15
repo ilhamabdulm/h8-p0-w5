@@ -1,13 +1,11 @@
 function makanTerusRekursif(waktu) {
     // you can only write your code here!
-    let count = 0
     if(waktu===0){
-        return count
+        return 0
     }else if(waktu>0 && waktu<15){
         return 1
     }else{
-        count++
-        return count + makanTerusRekursif(waktu-15)
+        return 1 + makanTerusRekursif(waktu-15)
     }
 
   }
