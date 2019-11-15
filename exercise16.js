@@ -6,7 +6,7 @@ function totalDigitRekursif(angka) {
     if(angka<10){
         return angka
     }else{
-        console.log('ini hasil: ',hasil)
+        // console.log('ini hasil: ',hasil)
         var proses = Math.floor(angka/10)
         // console.log('ini proses: ',proses)
         hasil+=totalDigitRekursif(proses)
